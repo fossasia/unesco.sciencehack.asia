@@ -9,4 +9,4 @@ Documentation of the API is here: https://sendy.co/api
 
 A Javascript implementation making use of the API is here: https://www.npmjs.com/package/sendy-api
 
-You find the subscription sample at fossasia.github.io/fossasia-subscriptions
+You find the subscription sample at http://fossasia.github.io/fossasia-subscriptions
