@@ -339,3 +339,10 @@ $(window).load(function() {
 
 
 }); 
+	//Sendy verify if email is empty
+	$('.email-subscribe').submit(function() {
+        if ($.trim($("#email").val()) === "") {
+        alert('Please enter your email address in the form');
+        return false;
+    }
+});
