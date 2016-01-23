@@ -20,3 +20,24 @@
   text-decoration: none;
   border: none;
 }
+
+.name{
+  padding-right: 0px;
+}
+
+.name input{
+  border-radius: 10px 0px 0px 10px;
+}
+.email{
+  padding-left: 5px;
+  padding-right: 0px;
+}
+.email input{
+  border-radius: 0px;
+}
+.submit-btn{
+  padding-left: 5px;
+}
+.submit-btn input{
+  border-radius: 0px 10px 10px 0px;
+}
