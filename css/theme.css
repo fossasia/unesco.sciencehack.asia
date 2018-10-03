@@ -1388,6 +1388,7 @@ nav .container {
   min-width: 150px;
   margin-top: 32px;
   margin-right: 16px;
+  padding: 15px 17px;
 }
 @media all and (max-width: 768px) {
   .inline-video iframe {
@@ -2296,4 +2297,45 @@ footer.classic .social-profiles {
 .social-profiles li a {
   color: #333333;
   font-size: 20px;
+}
+
+/* Tooltip for venue partner description */
+.tooltip__venue {
+  position: relative;
+}
+
+.tooltip__venue .tooltiptext {
+  cursor: default;
+  font-size: 15px;
+  visibility: hidden;
+  min-width: 265%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 13px 8px;
+  position: absolute;
+  z-index: 1;
+  top: 87px;
+  right: -83%;
+}
+@media all and (max-width: 767px) {
+  .tooltip__venue .tooltiptext {
+    display: none;
+  }
+}
+
+.tooltip__venue .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip__venue:hover .tooltiptext {
+  visibility: visible;
 }
