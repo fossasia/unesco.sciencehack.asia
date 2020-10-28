@@ -509,10 +509,10 @@ nav .container {
 .menu li {
   float: left;
   margin-right: 32px;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-weight: 800;
   position: relative;
   top: 4px;
 }
@@ -589,7 +589,7 @@ nav .container {
   top: -6px;
 }
 .menu .social-link {
-  font-size: 14px;
+  font-size: 16px;
   top: 0px !important;
   margin-right: 18px !important;
 }
